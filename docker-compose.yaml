@@ -1,0 +1,44 @@
+services:
+  juje:
+    build:
+      context: ./api
+      dockerfile: Dockerfile
+    ports:
+      - 8080:8080
+    environment:
+      - DB_URL=jdbc:postgresql://poochie:5432/postgres
+      - DB_USERNAME=postgres
+      - DB_PASSWORD=juje2020
+    depends_on:
+      - poochie
+  hobbit:
+    build:
+      context: ./reactme
+      dockerfile: Dockerfile
+    environment:
+      - REACT_APP_URL=http://localhost:8080/api/v1
+#      - REACT_APP_URL=http://juje:8080/api/v1
+    ports:
+      - 80:3000
+      - 443:443
+#    volumes:
+#      - ./nginx/conf/:/etc/nginx/conf.d/:ro
+
+    #      - ./certbot/www/:/var/www/certbot/:ro
+    #      - ./certbot/conf/:/etc/letsencrypt/
+    depends_on:
+      - juje
+  poochie:
+    container_name: postgres_demo
+    image: postgres:latest
+    environment:
+      POSTGRES_USER: postgres
+      POSTGRES_DB: postgres
+      POSTGRES_PASSWORD: juje2020
+      POSTGRES_HOST_AUTH_METHOD: md5
+
+    ports:
+      - "5432:5432"
+
+
+

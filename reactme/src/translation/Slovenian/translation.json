@@ -1,0 +1,62 @@
+{
+   "navbar": {
+        "dashboard" : "Začetek",
+        "menu": "Jedilnik",
+        "food": "Hrana",
+        "ingredients": "Sestavine",
+        "operations": " Operacije",
+        "inventory": "Inventar",
+        "deliveries": "Dostave"
+    },
+    "ingredients": {
+        "ingredients": "Sestavine",
+        "newIngredient": "Nova sestavina",
+        "searchIngredients": "Iskanje sestavin",
+        "addIngredient": "Dodaj sestavino",
+        "selectIngredient": "Izberi sestavino"
+    },
+    "food": {
+        "food": "Hrana",
+        "newFood": "Nova hrana",
+        "searchFood": "Iskanje hrane",
+        "addFood": "Dodaj hrano",
+        "selectFood": "Izberi hrano"
+    },
+    "common": {
+        "search": "Iskanje",
+        "seeDetails": "Poglej podrobnosti",
+        "submit": "Pošlji",
+        "remove": "odstrani",
+        "delete": "Izbrisati",
+        "edit": "Uredi",
+        "per": "na",
+        "tags": "Oznake",
+        "changeTags": "Spremenite oznake",
+        "seeMicroNutrients": "Glej mikrohranila",
+        "productNameEn": "Angleško ime izdelka",
+        "productNameSl": "Slovensko ime izdelka",
+        "processing": "Predelava",
+        "portionSize": "Porcija",
+        "daily": "Dnevno",
+        "microNutrients": "Mikrohranila",
+        "vitamins": "Vitamini",
+        "minerals": "Minerali"
+    },
+    "macroNutrients": {
+        "macroNutrients": "Makrohranila",
+            "energy": "Energijska vrednost",
+            "protein": "Beljakovine",
+            "carbs": "Ogljikovi hidrati",
+            "sugars": "Sladkorji",
+            "dietaryFibre": "Prehranska vlaknina",
+            "fat": "Maščobe",
+            "saturated": "Nasičene maščobe"
+    },
+    "processing": {
+        "default": "izberi obdelavo",
+        "raw": "surovo",
+        "light": "rahlo obdelano",
+        "processed": "obdelano",
+        "home": "pripravljeno doma"
+    }
+}

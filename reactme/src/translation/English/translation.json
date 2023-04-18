@@ -1,0 +1,62 @@
+{
+    "navbar": {
+        "dashboard" : "Dashboard",
+        "menu":"Menu",
+        "food": "Food",
+        "ingredients": "Ingredients",
+        "operations": "Operations",
+        "inventory": "Inventory",
+        "deliveries": "Deliveries"
+    },
+    "ingredients": {
+        "ingredients": "Ingredients",
+        "newIngredient": "New ingredient",
+        "searchIngredients": "Search ingredients",
+        "addIngredient": "Add ingredient",
+        "selectIngredient": "Select ingredient"
+    },
+    "food": {
+        "food": "Food",
+        "newFood": "New Food",
+        "searchFood": "Search food",
+        "addFood": "Add food",
+        "selectFood": "Select food"
+    },
+    "common": {
+        "search": "Search",
+        "seeDetails": "See details",
+        "submit": "submit",
+        "remove": "remove",
+        "delete": "Delete",
+        "edit": "Edit",
+        "per": "per",
+        "tags": "Tags",
+        "changeTags": "Change tags",
+        "seeMicroNutrients": "See micronutrients",
+        "productNameEn": "Product name English",
+        "productNameSl": "Product name Slovenian",
+        "processing": "Processing",
+        "portionSize": "Portion size",
+        "daily": "Daily",
+        "microNutrients": "Micronutrients",
+        "vitamins": "Vitamins",
+        "minerals": "Minerals"
+    },
+    "macroNutrients": {
+        "macroNutrients": "Macronutrients",
+            "energy": "Energy",
+            "protein": "Proteins",
+            "carbs": "Carbs",
+            "sugars": "Sugars",
+            "dietaryFibre": "Dietary fiber",
+            "fat": "Fat",
+            "saturated": "Saturated fat"
+    },
+    "processing": {
+        "default": "select processing",
+        "raw": "raw",
+        "light": "lightly processed",
+        "processed": "processed",
+        "home": "home cooked"
+    }
+}
